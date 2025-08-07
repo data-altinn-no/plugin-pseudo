@@ -1,7 +1,9 @@
-using Microsoft.Extensions.Hosting;
 using Dan.Common.Extensions;
-using Dan.Plugin.DATASOURCENAME.Config;
+using Dan.Plugin.Pseudo.Config;
+using Dan.Pseudo.Services.Interfaces;
+using Dan.Pseudo.Services;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
 
 var host = new HostBuilder()
     .ConfigureDanPluginDefaults()
@@ -17,6 +19,9 @@ var host = new HostBuilder()
         // This makes IOption<Settings> available in the DI container.
         var configurationRoot = context.Configuration;
         services.Configure<Settings>(configurationRoot);
+        services.AddMemoryCache();
+        services.AddSingleton<IPluginMemoryCacheProvider, PluginMemoryCacheProvider>();
+
     })
     .Build();
 

@@ -1,4 +1,4 @@
-﻿namespace Dan.Plugin.DATASOURCENAME.Config;
+namespace Dan.Plugin.Pseudo.Config;
 
 public static class PluginConstants
 {
@@ -13,6 +13,10 @@ public static class PluginConstants
     public const string SourceName = "Digitaliseringsdirektoratet";
 
     // The function names (ie. HTTP endpoint names) and the dataset names must match. Using constants to avoid errors.
-    public const string SimpleDatasetName = "SimpleDataset";
-    public const string RichDatasetName = "RichDataset";
+    public const string DatasetName_pk = "PseudoKey";
+
+    public const string DatasetName_upk = "UsePseudoKey";
+
+    public const string PluginServiceContext = "PseudonymizationKeys";
+
 }

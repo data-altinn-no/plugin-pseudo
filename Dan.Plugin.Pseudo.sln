@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31717.71
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dan.Plugin.Pseudo", "src\Dan.Plugin.Pseudo\Dan.Plugin.Pseudo.csproj", "{1717B28E-A0B0-4E1E-87CC-9C749B3C1B16}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dan.Plugin.Pseudo.Test", "test\Dan.Plugin.Pseudo.Test\Dan.Plugin.Pseudo.Test.csproj", "{95FD6CD2-53A8-4994-9CE0-87F0158D7511}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1717B28E-A0B0-4E1E-87CC-9C749B3C1B16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1717B28E-A0B0-4E1E-87CC-9C749B3C1B16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1717B28E-A0B0-4E1E-87CC-9C749B3C1B16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1717B28E-A0B0-4E1E-87CC-9C749B3C1B16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95FD6CD2-53A8-4994-9CE0-87F0158D7511}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95FD6CD2-53A8-4994-9CE0-87F0158D7511}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95FD6CD2-53A8-4994-9CE0-87F0158D7511}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95FD6CD2-53A8-4994-9CE0-87F0158D7511}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9C136489-16DA-43F4-A16A-9038157D6FDF}
+	EndGlobalSection
+EndGlobal

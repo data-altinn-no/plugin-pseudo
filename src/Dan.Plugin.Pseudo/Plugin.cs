@@ -21,7 +21,6 @@ public class Plugin
 {
     private readonly IEvidenceSourceMetadata _evidenceSourceMetadata;
     private readonly ILogger _logger;
-    private readonly HttpClient _client;
     private readonly Settings _settings;
     private readonly IPluginMemoryCacheProvider _memoryCache;
 

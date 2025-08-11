@@ -17,6 +17,6 @@ public static class PluginConstants
 
     public const string DatasetName_upk = "UsePseudoKey";
 
-    public const string PluginServiceContext = "PseudonymizationKeys";
+    public const string PluginServiceContext = "Digøk-friv";
 
 }
